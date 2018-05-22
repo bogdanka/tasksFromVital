@@ -4,5 +4,7 @@ package bolotnik.andrey.mail.ru.services.interfaces;
 
 public interface ServiceSendingMessage {
 
-    void sendMessage(Long id, String message);
+    void sendEmail(Integer id, String message);
+    void sendSMS(Integer id, String message);
+
 }
